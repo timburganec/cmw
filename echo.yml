@@ -1,0 +1,10 @@
+on: workflow_call
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hi Tim"
+  moar:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Moar"
